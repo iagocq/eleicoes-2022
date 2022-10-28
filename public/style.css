@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    font-family: "Open Sans", verdana, arial, sans-serif;
+    font-size: 17px;
+    color: rgb(68, 68, 68);
+}
+
+body {
+    background-color: white;
+}
+
+p {
+    margin-top: 0.3rem;
+}
+
+.ashown {
+    animation-duration: 1s;
+    animation-name: appear;
+    animation-fill-mode: forwards;
+}
+
+.ahidden {
+    animation-duration: 1s;
+    animation-name: disappear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes disappear {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+#clone, .hidden {
+    display: none;
+}
+
+.margin {
+    margin: 1rem 4rem;
+}
+.horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.vertical {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.small * {
+    margin-top: 0.2rem;
+    font-size: 12px;
+}

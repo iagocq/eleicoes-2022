@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Eleições 2022</title>
+	<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="vertical">
+		<div class="margin">
+			<div id="clone">
+				<p><span></span> tem <span></span> votos (<span></span>%)<span class="hidden"><b> [VENCEDOR]</b></span></p>
+			</div>
+			<div>
+				<p id="secoes">Seções Totalizadas: <span></span>/<span></span> (<span></span>%)</p>
+				<p id="comp">Comparecimentos / Abstenções: <span></span> (<span></span>%) / <span></span> (<span></span>%)</p>
+				<p id="bn">Votos Brancos e Nulos: <span></span> (<span></span>%)</p>
+				<div id="paste"></div>
+				<p>Eleição decidida quando um candidato conseguir <span id="decisao"></span> votos</p>
+			</div>
+		</div>
+		<div id="a" class="ashown">
+			<div class="horizontal">
+				<div id="p30"></div>
+				<div id="v30"></div>
+			</div>
+		</div>
+		<div id="b" class="hidden">
+			<div class="horizontal">
+				<div id="pf"></div>
+				<div id="vf"></div>
+			</div>
+		</div>
+		<div id="c" class="hidden">
+			<div class="horizontal">
+				<div id="ps"></div>
+				<div id="pt"></div>
+			</div>
+		</div>
+		<div class="margin small">
+			<p>Fonte de dados: https://resultados.tse.jus.br/oficial/app/index.html</p>
+			<p>Código-fonte disponível em: https://github.com/iagocq/eleicoes-2022</p>
+		</div>
+	</div>
+	<script type="text/javascript" src="eleicoes.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
