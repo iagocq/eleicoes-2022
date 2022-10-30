@@ -217,8 +217,12 @@ async function update(noupdate) {
     // const showbn = true;
 
     const yvalues = [...vs].concat(showdecisao ? [need] : []).concat(showbn ? [inv, absent] : []);
-    const newyrangev = minmaxrange(xrange, time, yvalues);
-    const newyrangep = minmaxrange(xrange, time, percentage);
+    let newyrangev = minmaxrange(xrange, time, yvalues, 0, 100);
+    let newyrangep = minmaxrange(xrange, time, percentage, 0, 100);
+
+    if (newyrangev[0] == 0 && newyrangev[1] == 0) {
+        newyrangev = [0, 10];
+    }
 
     const layout = {
         xaxis: {
@@ -229,7 +233,6 @@ async function update(noupdate) {
             ticks: 'outside',
         },
         yaxis: {
-            type: 'linear',
             rangemode: 'nonnegative',
         },
     };
