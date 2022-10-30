@@ -64,6 +64,7 @@ async function updateVotes() {
         dados = JSON.parse(dadosstr);
     } catch (e) {
         console.error(e);
+        return;
     }
 
     const dia = dados.dt > dados.dg ? dados.dt : dados.dg;
