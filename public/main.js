@@ -235,12 +235,12 @@ async function update(noupdate) {
     };
 
     const vlayout = Object.assign(clone(layout), {
-        width: 720,
+        width: 710,
     });
     //132
     const playout = Object.assign(clone(layout), {
         showlegend: false,
-        width: 588,
+        width: 578,
     });
 
     let vf = vs.map((y, i) => ({
