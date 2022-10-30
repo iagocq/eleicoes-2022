@@ -20,22 +20,28 @@ type
     lastUpdate: Update
 
 iterator updates(el: Eleicao): Update =
-  for up in el.history:
-    yield up
-  yield el.lastUpdate
+  if el.lastUpdate.votes.len == 0:
+    var votes: seq[int] = @[]
+    for _ in 1..el.candidates:
+      votes.add(0)
+    yield Update(n: 0, votes: votes, blanknull: 0, absent: 0, present: 0, totalized: 0, time: 0)
+  else:
+    for up in el.history:
+      yield up
+    yield el.lastUpdate
 
 proc updates(el: Eleicao): seq[Update] =
   result = collect(newSeq):
     for up in el.updates: up
 
 proc update(el: Eleicao, up: Update) =
-  if el.lastUpdate.n != up.n:
+  if el.lastUpdate.votes.len > 0 and el.lastUpdate.n != up.n:
     el.history.add(el.lastUpdate)
 
   el.lastUpdate = up
 
 proc percentage(update: Update): seq[float] =
-  let sum = update.votes.foldl(a + b)
+  var sum = update.votes.foldl(a + b)
   update.votes.map(v => v / sum * 100)
 
 proc invalid(update: Update): int =
@@ -48,7 +54,7 @@ proc neededToWinOverTime(el: Eleicao): seq[int] =
   el.updates.map(up => el.neededToWin(up))
 
 proc votes(el: Eleicao): seq[seq[int]] =
-  for _ in 0..<el.candidates:
+  for _ in 1..el.candidates:
     result.add(@[])
 
   for update in el.updates:
@@ -56,7 +62,7 @@ proc votes(el: Eleicao): seq[seq[int]] =
       result[i].add(v)
 
 proc votesPercentage(el: Eleicao): seq[seq[float]] =
-  for _ in 0..<el.candidates:
+  for _ in 1..el.candidates:
     result.add(@[])
 
   for update in el.updates:
@@ -94,14 +100,11 @@ proc elTotalizedPercentage(el: Eleicao): seq[float] {.exportc.} = el.totalizedPe
 proc elAbsent(el: Eleicao): seq[int] {.exportc.} = el.absent
 proc elPresent(el: Eleicao): seq[int] {.exportc.} = el.present
 proc elNew(updates: seq[Update], candidates, voters, sections: int): Eleicao {.exportc.} =
-  if updates.len == 0:
-    result = nil
-  else:
-    var eleicao = new Eleicao
-    eleicao.candidates = candidates
-    eleicao.voters = voters
-    eleicao.lastUpdate = updates[0]
-    eleicao.sections = sections
-    for update in updates[1..^1]:
-      eleicao.update(update)
-    result = eleicao
+  var eleicao = new Eleicao
+  eleicao.history = @[]
+  eleicao.candidates = candidates
+  eleicao.voters = voters
+  eleicao.sections = sections
+  for update in updates[0..^1]:
+    eleicao.update(update)
+  result = eleicao

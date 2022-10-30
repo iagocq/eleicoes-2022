@@ -2,29 +2,29 @@
 var framePtr = null;
 var excHandler = 0;
 var lastJSError = null;
-var NTI436208120 = {size: 0,kind: 31,base: null,node: null,finalizer: null};
-var NTI436208127 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
-var NTI436208028 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI436208013 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI436207998 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI436207983 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI436208150 = {size: 0,kind: 31,base: null,node: null,finalizer: null};
+var NTI436208157 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI436208149 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI436208030 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI436208015 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI436208000 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI436207985 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
 var NTI436207825 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
 var NTI436207824 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
 var NTI436207794 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI436207770 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI436207782 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI436207968 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI436207947 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI436207970 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI436207949 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
 var NTI436207806 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI436207670 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI436207697 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI436207705 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI436207728 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI436207900 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
 var NTI436207899 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI436207898 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
 var NTI33554435 = {size: 0,kind: 36,base: null,node: null,finalizer: null};
-var NTI436207737 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI436207767 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
 var NTI33555124 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI436207621 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
 var NTI436207619 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI436207628 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
 var NTI33555128 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI33555130 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI33554456 = {size: 0,kind: 31,base: null,node: null,finalizer: null};
@@ -68,6 +68,7 @@ NTI33555130.base = NTI33555113;
 var NNI33555128 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI33555128.node = NNI33555128;
 NTI33555128.base = NTI33555113;
+NTI436207628.base = NTI33554456;
 NTI436207621.base = NTI33554456;
 var NNI436207619 = {kind: 2, len: 7, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "n", len: 0, typ: NTI33554456, name: "n", sons: null}, 
 {kind: 1, offset: "votes", len: 0, typ: NTI436207621, name: "votes", sons: null}, 
@@ -80,26 +81,25 @@ NTI436207619.node = NNI436207619;
 var NNI33555124 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI33555124.node = NNI33555124;
 NTI33555124.base = NTI33555113;
-NTI436207737.base = NTI33554435;
-NTI436207899.base = NTI33554435;
-NTI436207898.base = NTI436207899;
-NTI436207697.base = NTI33554435;
-NTI436207670.base = NTI436207619;
+NTI436207767.base = NTI33554435;
+NTI436207900.base = NTI33554435;
+NTI436207899.base = NTI436207900;
+NTI436207728.base = NTI33554435;
+NTI436207705.base = NTI436207619;
 NTI436207806.base = NTI33554456;
-NTI436207947.base = NTI33554456;
-NTI436207968.base = NTI33554456;
-NTI436207782.base = NTI33554456;
-NTI436207770.base = NTI33554456;
+NTI436207949.base = NTI33554456;
+NTI436207970.base = NTI33554456;
 NTI436207794.base = NTI33554456;
 NTI436207825.base = NTI33554456;
 NTI436207824.base = NTI436207825;
-NTI436207983.base = NTI33554456;
-NTI436207998.base = NTI33554435;
-NTI436208013.base = NTI33554456;
-NTI436208028.base = NTI33554456;
-var NNI436208127 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "a", len: 0, typ: NTI436208120, name: "a", sons: null}, 
+NTI436207985.base = NTI33554456;
+NTI436208000.base = NTI33554435;
+NTI436208015.base = NTI33554456;
+NTI436208030.base = NTI33554456;
+NTI436208149.base = NTI436207619;
+var NNI436208157 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "a", len: 0, typ: NTI436208150, name: "a", sons: null}, 
 {kind: 1, offset: "b", len: 0, typ: NTI33554456, name: "b", sons: null}]};
-NTI436208127.node = NNI436208127;
+NTI436208157.node = NNI436208157;
 
 function makeNimstrLit(c_33556801) {
       var result = [];
@@ -1686,9 +1686,6 @@ framePtr = F.prev;
 var F = {procname: "module eleicoes", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
 framePtr = F;
 framePtr = F.prev;
-var F = {procname: "module eleicoes", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
-framePtr = F;
-framePtr = F.prev;
 
 function add_33556419(x_33556420, x_33556420_Idx, y_33556421) {
           if (x_33556420[x_33556420_Idx] === null) { x_33556420[x_33556420_Idx] = []; }
@@ -1772,17 +1769,17 @@ function addChars_251658415(result_251658417, result_251658417_Idx, x_251658418,
       F.line = 46;
       var iHEX60gensym4_251658435 = 0;
       F.line = 119;
-      var i_436208221 = 0;
+      var i_436208220 = 0;
       Label2: do {
         F.line = 120;
           Label3: while (true) {
-          if (!(i_436208221 < n_251658420)) break Label3;
+          if (!(i_436208220 < n_251658420)) break Label3;
             F.line = 49;
-            iHEX60gensym4_251658435 = i_436208221;
+            iHEX60gensym4_251658435 = i_436208220;
             F.line = 49;
             result_251658417[result_251658417_Idx][chckIndx(addInt(old_251658421, iHEX60gensym4_251658435), 0, (result_251658417[result_251658417_Idx]).length - 1)] = x_251658418.charCodeAt(chckIndx(addInt(start_251658419, iHEX60gensym4_251658435), 0, (x_251658418).length - 1));
             F.line = 122;
-            i_436208221 = addInt(i_436208221, 1);
+            i_436208220 = addInt(i_436208220, 1);
           }
       } while (false);
     } while (false);
@@ -1870,13 +1867,13 @@ function auxWriteStackTrace_33556559(f_33556560) {
     
     Label6: do {
       var j_33556602 = 0;
-      var colontmp__436208214 = 0;
-      colontmp__436208214 = (i_33556570 - 1);
-      var res_436208215 = colontmp__436208214;
+      var colontmp__436208213 = 0;
+      colontmp__436208213 = (i_33556570 - 1);
+      var res_436208214 = colontmp__436208213;
       Label7: do {
           Label8: while (true) {
-          if (!(0 <= res_436208215)) break Label8;
-            j_33556602 = res_436208215;
+          if (!(0 <= res_436208214)) break Label8;
+            j_33556602 = res_436208214;
             result_33556561[0].push.apply(result_33556561[0], cstrToNimstr(tempFrames_33556572[j_33556602].Field2));;
             if ((0 < tempFrames_33556572[j_33556602].Field1)) {
             result_33556561[0].push.apply(result_33556561[0], makeNimstrLit("("));;
@@ -1892,7 +1889,7 @@ function auxWriteStackTrace_33556559(f_33556560) {
             result_33556561[0].push.apply(result_33556561[0], makeNimstrLit(" at "));;
             add_33556419(result_33556561, 0, tempFrames_33556572[j_33556602].Field0);
             result_33556561[0].push.apply(result_33556561[0], makeNimstrLit("\x0A"));;
-            res_436208215 -= 1;
+            res_436208214 -= 1;
           }
       } while (false);
     } while (false);
@@ -1998,37 +1995,37 @@ function failedAssertImpl_218103864(msg_218103865) {
   
 }
 
-function map_436207799(s_436207802, op_436207804) {
-  var result_436207805 = [];
+function map_436207828(s_436207831, op_436207833) {
+  var result_436207834 = [];
 
   var F = {procname: "map.map", prev: framePtr, filename: "E:\\bin\\scoop\\apps\\nim\\current\\lib\\pure\\collections\\sequtils.nim", line: 0};
   framePtr = F;
     F.line = 385;
-    result_436207805 = new Array(chckRange((s_436207802).length, 0, 2147483647)); for (var i = 0 ; i < chckRange((s_436207802).length, 0, 2147483647) ; ++i) { result_436207805[i] = 0.0; }    Label1: do {
+    result_436207834 = new Array(chckRange((s_436207831).length, 0, 2147483647)); for (var i = 0 ; i < chckRange((s_436207831).length, 0, 2147483647) ; ++i) { result_436207834[i] = 0.0; }    Label1: do {
       F.line = 386;
-      var i_436207821 = 0;
+      var i_436207850 = 0;
       F.line = 117;
-      var colontmp__436208230 = 0;
+      var colontmp__436208229 = 0;
       F.line = 386;
-      colontmp__436208230 = (s_436207802).length;
+      colontmp__436208229 = (s_436207831).length;
       F.line = 119;
-      var i_436208231 = 0;
+      var i_436208230 = 0;
       Label2: do {
         F.line = 120;
           Label3: while (true) {
-          if (!(i_436208231 < colontmp__436208230)) break Label3;
+          if (!(i_436208230 < colontmp__436208229)) break Label3;
             F.line = 386;
-            i_436207821 = i_436208231;
+            i_436207850 = i_436208230;
             F.line = 386;
-            result_436207805[chckIndx(i_436207821, 0, (result_436207805).length - 1)] = op_436207804(s_436207802[chckIndx(i_436207821, 0, (s_436207802).length - 1)]);
+            result_436207834[chckIndx(i_436207850, 0, (result_436207834).length - 1)] = op_436207833(s_436207831[chckIndx(i_436207850, 0, (s_436207831).length - 1)]);
             F.line = 122;
-            i_436208231 = addInt(i_436208231, 1);
+            i_436208230 = addInt(i_436208230, 1);
           }
       } while (false);
     } while (false);
   framePtr = F.prev;
 
-  return result_436207805;
+  return result_436207834;
 
 }
 
@@ -2058,187 +2055,148 @@ function HEX2F_33557575(x_33557576, y_33557577) {
 
 }
 
-function percentage_436207745(update_436207746) {
+function percentage_436207775(update_436207776) {
     
-function HEX3Aanonymous_436207792(v_436207795) {
-      var result_436207798 = 0.0;
+function HEX3Aanonymous_436207821(v_436207824) {
+      var result_436207827 = 0.0;
 
       var F = {procname: "percentage.:anonymous", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
       framePtr = F;
-        F.line = 39;
-        result_436207798 = (HEX2F_33557575(v_436207795, sum_436207772) * 100.0);
+        F.line = 45;
+        result_436207827 = (HEX2F_33557575(v_436207824, sum_436207801) * 100.0);
       framePtr = F.prev;
 
-      return result_436207798;
+      return result_436207827;
 
     }
 
-  var result_436207747 = [];
+  var result_436207777 = [];
 
   var F = {procname: "eleicoes.percentage", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
   framePtr = F;
-    F.line = 38;
-    F.line = 38;
+    F.line = 44;
+    F.line = 44;
     F.line = 894;
-    var sHEX60gensym4_436207751 = nimCopy(null, update_436207746.votes, NTI436207621);
-    if (!((0 < (sHEX60gensym4_436207751).length))) {
+    var sHEX60gensym5_436207781 = nimCopy(null, update_436207776.votes, NTI436207621);
+    if (!((0 < (sHEX60gensym5_436207781).length))) {
     F.line = 895;
-    failedAssertImpl_218103864(makeNimstrLit("E:\\bin\\scoop\\apps\\nim\\current\\lib\\pure\\collections\\sequtils.nim(895, 10) `s`gensym4.len > 0` Can\'t fold empty sequences"));
+    failedAssertImpl_218103864(makeNimstrLit("E:\\bin\\scoop\\apps\\nim\\current\\lib\\pure\\collections\\sequtils.nim(895, 10) `s`gensym5.len > 0` Can\'t fold empty sequences"));
     }
     
     F.line = 896;
-    var resultHEX60gensym4_436207761 = 0;
+    var resultHEX60gensym5_436207790 = 0;
     F.line = 897;
-    resultHEX60gensym4_436207761 = sHEX60gensym4_436207751[chckIndx(0, 0, (sHEX60gensym4_436207751).length - 1)];
+    resultHEX60gensym5_436207790 = sHEX60gensym5_436207781[chckIndx(0, 0, (sHEX60gensym5_436207781).length - 1)];
     Label1: do {
       F.line = 898;
-      var iHEX60gensym4_436207769 = 0;
+      var iHEX60gensym5_436207798 = 0;
       F.line = 117;
-      var colontmp__436208226 = 0;
+      var colontmp__436208225 = 0;
       F.line = 898;
-      colontmp__436208226 = (sHEX60gensym4_436207751).length;
+      colontmp__436208225 = (sHEX60gensym5_436207781).length;
       F.line = 119;
-      var i_436208227 = 1;
+      var i_436208226 = 1;
       Label2: do {
         F.line = 120;
           Label3: while (true) {
-          if (!(i_436208227 < colontmp__436208226)) break Label3;
+          if (!(i_436208226 < colontmp__436208225)) break Label3;
             F.line = 898;
-            iHEX60gensym4_436207769 = i_436208227;
+            iHEX60gensym5_436207798 = i_436208226;
             F.line = 900;
-            var a_436207770 = resultHEX60gensym4_436207761;
+            var a_436207799 = resultHEX60gensym5_436207790;
             F.line = 901;
-            var b_436207771 = sHEX60gensym4_436207751[chckIndx(iHEX60gensym4_436207769, 0, (sHEX60gensym4_436207751).length - 1)];
-            F.line = 38;
-            resultHEX60gensym4_436207761 = addInt(a_436207770, b_436207771);
+            var b_436207800 = sHEX60gensym5_436207781[chckIndx(iHEX60gensym5_436207798, 0, (sHEX60gensym5_436207781).length - 1)];
+            F.line = 44;
+            resultHEX60gensym5_436207790 = addInt(a_436207799, b_436207800);
             F.line = 122;
-            i_436208227 = addInt(i_436208227, 1);
+            i_436208226 = addInt(i_436208226, 1);
           }
       } while (false);
     } while (false);
-    var sum_436207772 = resultHEX60gensym4_436207761;
-    result_436207747 = nimCopy(null, map_436207799(update_436207746.votes, HEX3Aanonymous_436207792), NTI436207737);
+    var sum_436207801 = resultHEX60gensym5_436207790;
+    result_436207777 = nimCopy(null, map_436207828(update_436207776.votes, HEX3Aanonymous_436207821), NTI436207767);
   framePtr = F.prev;
 
-  return result_436207747;
+  return result_436207777;
 
 }
 
-function votesPercentage_436208006(el_436208007) {
-  var result_436208008 = [];
+function votesPercentage_436207992(el_436207993) {
+  var result_436207994 = [];
 
   var F = {procname: "eleicoes.votesPercentage", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
   framePtr = F;
     Label1: do {
-      F.line = 64;
-      var __436208013 = 0;
-      F.line = 119;
-      var i_436208186 = 0;
+      F.line = 65;
+      var __436207999 = 0;
+      F.line = 90;
+      var res_436208172 = 1;
       Label2: do {
-        F.line = 120;
+        F.line = 91;
           Label3: while (true) {
-          if (!(i_436208186 < el_436208007.candidates)) break Label3;
-            F.line = 64;
-            __436208013 = i_436208186;
-            F.line = 64;
-            result_436208008.push([]);;
-            F.line = 122;
-            i_436208186 = addInt(i_436208186, 1);
+          if (!(res_436208172 <= el_436207993.candidates)) break Label3;
+            F.line = 65;
+            __436207999 = res_436208172;
+            F.line = 65;
+            result_436207994.push([]);;
+            F.line = 93;
+            res_436208172 = addInt(res_436208172, 1);
           }
       } while (false);
     } while (false);
     Label4: do {
-      F.line = 67;
-      var update_436208022 = ({n: 0, votes: [], blanknull: 0, absent: 0, present: 0, totalized: 0, time: 0});
+      F.line = 68;
+      var update_436208008 = ({n: 0, votes: [], blanknull: 0, absent: 0, present: 0, totalized: 0, time: 0});
+      if (((el_436207993.lastUpdate.votes).length == 0)) {
+      F.line = 24;
+      var votes_436208190 = [];
       Label5: do {
-        F.line = 23;
-        var up_436208202 = ({n: 0, votes: [], blanknull: 0, absent: 0, present: 0, totalized: 0, time: 0});
-        F.line = 235;
-        var i_436208203 = 0;
-        F.line = 236;
-        var L_436208204 = (el_436208007.history).length;
+        F.line = 25;
+        var __436208192 = 0;
+        F.line = 90;
+        var res_436208193 = 1;
         Label6: do {
-          F.line = 237;
+          F.line = 91;
             Label7: while (true) {
-            if (!(i_436208203 < L_436208204)) break Label7;
-              F.line = 23;
-              up_436208202 = el_436208007.history[chckIndx(i_436208203, 0, (el_436208007.history).length - 1)];
-              F.line = 67;
-              update_436208022 = nimCopy(update_436208022, up_436208202, NTI436207619);
-              Label8: do {
-                F.line = 69;
-                var i_436208023 = -1;
-                Label9: do {
-                  F.line = 68;
-                  var p_436208045 = 0.0;
-                  F.line = 233;
-                  var colontmp__436208191 = [];
-                  F.line = 68;
-                  colontmp__436208191 = percentage_436207745(update_436208022);
-                  F.line = 235;
-                  var i_436208193 = 0;
-                  F.line = 236;
-                  var L_436208194 = (colontmp__436208191).length;
-                  Label10: do {
-                    F.line = 237;
-                      Label11: while (true) {
-                      if (!(i_436208193 < L_436208194)) break Label11;
-                        F.line = 69;
-                        p_436208045 = colontmp__436208191[chckIndx(i_436208193, 0, (colontmp__436208191).length - 1)];
-                        F.line = 69;
-                        i_436208023 = addInt(i_436208023, 1);
-                        F.line = 69;
-                        result_436208008[chckIndx(i_436208023, 0, (result_436208008).length - 1)].push(p_436208045);;
-                        F.line = 239;
-                        i_436208193 = addInt(i_436208193, 1);
-                        if (!(((colontmp__436208191).length == L_436208194))) {
-                        F.line = 240;
-                        failedAssertImpl_218103864(makeNimstrLit("E:\\bin\\scoop\\apps\\nim\\current\\lib\\system\\iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
-                        }
-                        
-                      }
-                  } while (false);
-                } while (false);
-              } while (false);
-              F.line = 239;
-              i_436208203 = addInt(i_436208203, 1);
-              if (!(((el_436208007.history).length == L_436208204))) {
-              F.line = 240;
-              failedAssertImpl_218103864(makeNimstrLit("E:\\bin\\scoop\\apps\\nim\\current\\lib\\system\\iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
-              }
-              
+            if (!(res_436208193 <= el_436207993.candidates)) break Label7;
+              F.line = 25;
+              __436208192 = res_436208193;
+              F.line = 25;
+              votes_436208190.push(0);;
+              F.line = 93;
+              res_436208193 = addInt(res_436208193, 1);
             }
         } while (false);
       } while (false);
-      F.line = 67;
-      update_436208022 = nimCopy(update_436208022, el_436208007.lastUpdate, NTI436207619);
-      Label12: do {
-        F.line = 69;
-        var i_436208206 = -1;
-        Label13: do {
-          F.line = 68;
-          var p_436208207 = 0.0;
+      F.line = 68;
+      update_436208008 = nimCopy(update_436208008, {n: 0, votes: nimCopy(null, votes_436208190, NTI436207628), blanknull: 0, absent: 0, present: 0, totalized: 0, time: 0}, NTI436207619);
+      Label8: do {
+        F.line = 70;
+        var i_436208009 = -1;
+        Label9: do {
+          F.line = 69;
+          var p_436208031 = 0.0;
           F.line = 233;
-          var colontmp__436208208 = [];
-          F.line = 68;
-          colontmp__436208208 = percentage_436207745(update_436208022);
+          var colontmp__436208177 = [];
+          F.line = 69;
+          colontmp__436208177 = percentage_436207775(update_436208008);
           F.line = 235;
-          var i_436208209 = 0;
+          var i_436208179 = 0;
           F.line = 236;
-          var L_436208210 = (colontmp__436208208).length;
-          Label14: do {
+          var L_436208180 = (colontmp__436208177).length;
+          Label10: do {
             F.line = 237;
-              Label15: while (true) {
-              if (!(i_436208209 < L_436208210)) break Label15;
-                F.line = 69;
-                p_436208207 = colontmp__436208208[chckIndx(i_436208209, 0, (colontmp__436208208).length - 1)];
-                F.line = 69;
-                i_436208206 = addInt(i_436208206, 1);
-                F.line = 69;
-                result_436208008[chckIndx(i_436208206, 0, (result_436208008).length - 1)].push(p_436208207);;
+              Label11: while (true) {
+              if (!(i_436208179 < L_436208180)) break Label11;
+                F.line = 70;
+                p_436208031 = colontmp__436208177[chckIndx(i_436208179, 0, (colontmp__436208177).length - 1)];
+                F.line = 70;
+                i_436208009 = addInt(i_436208009, 1);
+                F.line = 70;
+                result_436207994[chckIndx(i_436208009, 0, (result_436207994).length - 1)].push(p_436208031);;
                 F.line = 239;
-                i_436208209 = addInt(i_436208209, 1);
-                if (!(((colontmp__436208208).length == L_436208210))) {
+                i_436208179 = addInt(i_436208179, 1);
+                if (!(((colontmp__436208177).length == L_436208180))) {
                 F.line = 240;
                 failedAssertImpl_218103864(makeNimstrLit("E:\\bin\\scoop\\apps\\nim\\current\\lib\\system\\iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
                 }
@@ -2247,343 +2205,436 @@ function votesPercentage_436208006(el_436208007) {
           } while (false);
         } while (false);
       } while (false);
+      }
+      else {
+        Label12: do {
+          F.line = 29;
+          var up_436208196 = ({n: 0, votes: [], blanknull: 0, absent: 0, present: 0, totalized: 0, time: 0});
+          F.line = 235;
+          var i_436208197 = 0;
+          F.line = 236;
+          var L_436208198 = (el_436207993.history).length;
+          Label13: do {
+            F.line = 237;
+              Label14: while (true) {
+              if (!(i_436208197 < L_436208198)) break Label14;
+                F.line = 29;
+                up_436208196 = el_436207993.history[chckIndx(i_436208197, 0, (el_436207993.history).length - 1)];
+                F.line = 68;
+                update_436208008 = nimCopy(update_436208008, up_436208196, NTI436207619);
+                Label15: do {
+                  F.line = 70;
+                  var i_436208200 = -1;
+                  Label16: do {
+                    F.line = 69;
+                    var p_436208201 = 0.0;
+                    F.line = 233;
+                    var colontmp__436208202 = [];
+                    F.line = 69;
+                    colontmp__436208202 = percentage_436207775(update_436208008);
+                    F.line = 235;
+                    var i_436208203 = 0;
+                    F.line = 236;
+                    var L_436208204 = (colontmp__436208202).length;
+                    Label17: do {
+                      F.line = 237;
+                        Label18: while (true) {
+                        if (!(i_436208203 < L_436208204)) break Label18;
+                          F.line = 70;
+                          p_436208201 = colontmp__436208202[chckIndx(i_436208203, 0, (colontmp__436208202).length - 1)];
+                          F.line = 70;
+                          i_436208200 = addInt(i_436208200, 1);
+                          F.line = 70;
+                          result_436207994[chckIndx(i_436208200, 0, (result_436207994).length - 1)].push(p_436208201);;
+                          F.line = 239;
+                          i_436208203 = addInt(i_436208203, 1);
+                          if (!(((colontmp__436208202).length == L_436208204))) {
+                          F.line = 240;
+                          failedAssertImpl_218103864(makeNimstrLit("E:\\bin\\scoop\\apps\\nim\\current\\lib\\system\\iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+                          }
+                          
+                        }
+                    } while (false);
+                  } while (false);
+                } while (false);
+                F.line = 239;
+                i_436208197 = addInt(i_436208197, 1);
+                if (!(((el_436207993.history).length == L_436208198))) {
+                F.line = 240;
+                failedAssertImpl_218103864(makeNimstrLit("E:\\bin\\scoop\\apps\\nim\\current\\lib\\system\\iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+                }
+                
+              }
+          } while (false);
+        } while (false);
+        F.line = 68;
+        update_436208008 = nimCopy(update_436208008, el_436207993.lastUpdate, NTI436207619);
+        Label19: do {
+          F.line = 70;
+          var i_436208205 = -1;
+          Label20: do {
+            F.line = 69;
+            var p_436208206 = 0.0;
+            F.line = 233;
+            var colontmp__436208207 = [];
+            F.line = 69;
+            colontmp__436208207 = percentage_436207775(update_436208008);
+            F.line = 235;
+            var i_436208208 = 0;
+            F.line = 236;
+            var L_436208209 = (colontmp__436208207).length;
+            Label21: do {
+              F.line = 237;
+                Label22: while (true) {
+                if (!(i_436208208 < L_436208209)) break Label22;
+                  F.line = 70;
+                  p_436208206 = colontmp__436208207[chckIndx(i_436208208, 0, (colontmp__436208207).length - 1)];
+                  F.line = 70;
+                  i_436208205 = addInt(i_436208205, 1);
+                  F.line = 70;
+                  result_436207994[chckIndx(i_436208205, 0, (result_436207994).length - 1)].push(p_436208206);;
+                  F.line = 239;
+                  i_436208208 = addInt(i_436208208, 1);
+                  if (!(((colontmp__436208207).length == L_436208209))) {
+                  F.line = 240;
+                  failedAssertImpl_218103864(makeNimstrLit("E:\\bin\\scoop\\apps\\nim\\current\\lib\\system\\iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+                  }
+                  
+                }
+            } while (false);
+          } while (false);
+        } while (false);
+      }
+      
     } while (false);
   framePtr = F.prev;
 
-  return result_436208008;
+  return result_436207994;
 
 }
 
-function elPercentage(el_436208174) {
-  var result_436208175 = [];
+function elPercentage(el_436208160) {
+  var result_436208161 = [];
 
   var F = {procname: "eleicoes.elPercentage", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
   framePtr = F;
-    F.line = 89;
-    result_436208175 = nimCopy(null, votesPercentage_436208006(el_436208174), NTI436207898);
+    F.line = 90;
+    result_436208161 = nimCopy(null, votesPercentage_436207992(el_436208160), NTI436207899);
   framePtr = F.prev;
 
-  return result_436208175;
+  return result_436208161;
 
 }
 var F = {procname: "module eleicoes", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
 framePtr = F;
 framePtr = F.prev;
 
-function elCurrentPercentage(el_436208234) {
-  var result_436208235 = [];
+function elCurrentPercentage(el_436208233) {
+  var result_436208234 = [];
 
   var F = {procname: "eleicoes.elCurrentPercentage", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
   framePtr = F;
-    F.line = 90;
-    result_436208235 = nimCopy(null, percentage_436207745(el_436208234.lastUpdate), NTI436207697);
+    F.line = 91;
+    result_436208234 = nimCopy(null, percentage_436207775(el_436208233.lastUpdate), NTI436207728);
   framePtr = F.prev;
 
-  return result_436208235;
+  return result_436208234;
 
 }
 var F = {procname: "module eleicoes", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
 framePtr = F;
 framePtr = F.prev;
 
-function map_436207900(s_436207903, op_436207905) {
-  var result_436207906 = [];
+function map_436207886(s_436207889, op_436207891) {
+  var result_436207892 = [];
 
   var F = {procname: "map.map", prev: framePtr, filename: "E:\\bin\\scoop\\apps\\nim\\current\\lib\\pure\\collections\\sequtils.nim", line: 0};
   framePtr = F;
     F.line = 385;
-    result_436207906 = new Array(chckRange((s_436207903).length, 0, 2147483647)); for (var i = 0 ; i < chckRange((s_436207903).length, 0, 2147483647) ; ++i) { result_436207906[i] = 0; }    Label1: do {
+    result_436207892 = new Array(chckRange((s_436207889).length, 0, 2147483647)); for (var i = 0 ; i < chckRange((s_436207889).length, 0, 2147483647) ; ++i) { result_436207892[i] = 0; }    Label1: do {
       F.line = 386;
-      var i_436207922 = 0;
+      var i_436207908 = 0;
       F.line = 117;
-      var colontmp__436208240 = 0;
+      var colontmp__436208239 = 0;
       F.line = 386;
-      colontmp__436208240 = (s_436207903).length;
+      colontmp__436208239 = (s_436207889).length;
       F.line = 119;
-      var i_436208241 = 0;
+      var i_436208240 = 0;
       Label2: do {
         F.line = 120;
           Label3: while (true) {
-          if (!(i_436208241 < colontmp__436208240)) break Label3;
+          if (!(i_436208240 < colontmp__436208239)) break Label3;
             F.line = 386;
-            i_436207922 = i_436208241;
+            i_436207908 = i_436208240;
             F.line = 386;
-            result_436207906[chckIndx(i_436207922, 0, (result_436207906).length - 1)] = op_436207905(s_436207903[chckIndx(i_436207922, 0, (s_436207903).length - 1)]);
+            result_436207892[chckIndx(i_436207908, 0, (result_436207892).length - 1)] = op_436207891(s_436207889[chckIndx(i_436207908, 0, (s_436207889).length - 1)]);
             F.line = 122;
-            i_436208241 = addInt(i_436208241, 1);
+            i_436208240 = addInt(i_436208240, 1);
           }
       } while (false);
     } while (false);
   framePtr = F.prev;
 
-  return result_436207906;
+  return result_436207892;
 
 }
 
-function newSeq_436207707(len_436207709) {
-  var result_436207710 = [];
+function newSeq_436207743(len_436207745) {
+  var result_436207746 = [];
 
   var F = {procname: "newSeq.newSeq", prev: framePtr, filename: "E:\\bin\\scoop\\apps\\nim\\current\\lib\\system.nim", line: 0};
   framePtr = F;
     F.line = 680;
-    result_436207710 = new Array(len_436207709); for (var i = 0 ; i < len_436207709 ; ++i) { result_436207710[i] = ({n: 0, votes: [], blanknull: 0, absent: 0, present: 0, totalized: 0, time: 0}); }  framePtr = F.prev;
+    result_436207746 = new Array(len_436207745); for (var i = 0 ; i < len_436207745 ; ++i) { result_436207746[i] = ({n: 0, votes: [], blanknull: 0, absent: 0, present: 0, totalized: 0, time: 0}); }  framePtr = F.prev;
 
-  return result_436207710;
+  return result_436207746;
 
 }
 
-function updates_436207678(el_436207679) {
-  var result_436207680 = [];
+function updates_436207714(el_436207715) {
+  var result_436207716 = [];
 
   var F = {procname: "eleicoes.updates", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
   framePtr = F;
-    F.line = 28;
-    F.line = 28;
-    var collectResult_436207686 = newSeq_436207707(0);
+    F.line = 34;
+    F.line = 34;
+    var collectResult_436207722 = newSeq_436207743(0);
     Label1: do {
-      F.line = 29;
-      var up_436207724 = ({n: 0, votes: [], blanknull: 0, absent: 0, present: 0, totalized: 0, time: 0});
+      F.line = 35;
+      var up_436207751 = ({n: 0, votes: [], blanknull: 0, absent: 0, present: 0, totalized: 0, time: 0});
+      if (((el_436207715.lastUpdate.votes).length == 0)) {
+      F.line = 24;
+      var votes_436208243 = [];
       Label2: do {
-        F.line = 23;
-        var up_436208245 = ({n: 0, votes: [], blanknull: 0, absent: 0, present: 0, totalized: 0, time: 0});
-        F.line = 235;
-        var i_436208246 = 0;
-        F.line = 236;
-        var L_436208247 = (el_436207679.history).length;
+        F.line = 25;
+        var __436208245 = 0;
+        F.line = 90;
+        var res_436208246 = 1;
         Label3: do {
-          F.line = 237;
+          F.line = 91;
             Label4: while (true) {
-            if (!(i_436208246 < L_436208247)) break Label4;
-              F.line = 23;
-              up_436208245 = el_436207679.history[chckIndx(i_436208246, 0, (el_436207679.history).length - 1)];
-              F.line = 29;
-              up_436207724 = nimCopy(up_436207724, up_436208245, NTI436207619);
-              F.line = 29;
-              var Temporary5 = nimCopy(null, up_436207724, NTI436207619);
-              collectResult_436207686.push(Temporary5);;
-              F.line = 239;
-              i_436208246 = addInt(i_436208246, 1);
-              if (!(((el_436207679.history).length == L_436208247))) {
-              F.line = 240;
-              failedAssertImpl_218103864(makeNimstrLit("E:\\bin\\scoop\\apps\\nim\\current\\lib\\system\\iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
-              }
-              
+            if (!(res_436208246 <= el_436207715.candidates)) break Label4;
+              F.line = 25;
+              __436208245 = res_436208246;
+              F.line = 25;
+              votes_436208243.push(0);;
+              F.line = 93;
+              res_436208246 = addInt(res_436208246, 1);
             }
         } while (false);
       } while (false);
-      F.line = 29;
-      up_436207724 = nimCopy(up_436207724, el_436207679.lastUpdate, NTI436207619);
-      F.line = 29;
-      var Temporary6 = nimCopy(null, up_436207724, NTI436207619);
-      collectResult_436207686.push(Temporary6);;
+      F.line = 35;
+      up_436207751 = nimCopy(up_436207751, {n: 0, votes: nimCopy(null, votes_436208243, NTI436207628), blanknull: 0, absent: 0, present: 0, totalized: 0, time: 0}, NTI436207619);
+      F.line = 35;
+      var Temporary5 = nimCopy(null, up_436207751, NTI436207619);
+      collectResult_436207722.push(Temporary5);;
+      }
+      else {
+        Label6: do {
+          F.line = 29;
+          var up_436208249 = ({n: 0, votes: [], blanknull: 0, absent: 0, present: 0, totalized: 0, time: 0});
+          F.line = 235;
+          var i_436208250 = 0;
+          F.line = 236;
+          var L_436208251 = (el_436207715.history).length;
+          Label7: do {
+            F.line = 237;
+              Label8: while (true) {
+              if (!(i_436208250 < L_436208251)) break Label8;
+                F.line = 29;
+                up_436208249 = el_436207715.history[chckIndx(i_436208250, 0, (el_436207715.history).length - 1)];
+                F.line = 35;
+                up_436207751 = nimCopy(up_436207751, up_436208249, NTI436207619);
+                F.line = 35;
+                var Temporary9 = nimCopy(null, up_436207751, NTI436207619);
+                collectResult_436207722.push(Temporary9);;
+                F.line = 239;
+                i_436208250 = addInt(i_436208250, 1);
+                if (!(((el_436207715.history).length == L_436208251))) {
+                F.line = 240;
+                failedAssertImpl_218103864(makeNimstrLit("E:\\bin\\scoop\\apps\\nim\\current\\lib\\system\\iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+                }
+                
+              }
+          } while (false);
+        } while (false);
+        F.line = 35;
+        up_436207751 = nimCopy(up_436207751, el_436207715.lastUpdate, NTI436207619);
+        F.line = 35;
+        var Temporary10 = nimCopy(null, up_436207751, NTI436207619);
+        collectResult_436207722.push(Temporary10);;
+      }
+      
     } while (false);
-    result_436207680 = nimCopy(null, collectResult_436207686, NTI436207670);
+    result_436207716 = nimCopy(null, collectResult_436207722, NTI436207705);
   framePtr = F.prev;
 
-  return result_436207680;
+  return result_436207716;
 
 }
 
-function times_436208063(el_436208064) {
+function times_436208049(el_436208050) {
     
-function HEX3Aanonymous_436208066(up_436208069) {
-      var result_436208072 = 0;
+function HEX3Aanonymous_436208052(up_436208055) {
+      var result_436208058 = 0;
 
       var F = {procname: "times.:anonymous", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
       framePtr = F;
-        F.line = 72;
-        result_436208072 = up_436208069.time;
+        F.line = 73;
+        result_436208058 = up_436208055.time;
       framePtr = F.prev;
 
-      return result_436208072;
+      return result_436208058;
 
     }
 
-  var result_436208065 = [];
+  var result_436208051 = [];
 
   var F = {procname: "eleicoes.times", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
   framePtr = F;
-    F.line = 72;
-    result_436208065 = nimCopy(null, map_436207900(updates_436207678(el_436208064), HEX3Aanonymous_436208066), NTI436207806);
+    F.line = 73;
+    result_436208051 = nimCopy(null, map_436207886(updates_436207714(el_436208050), HEX3Aanonymous_436208052), NTI436207806);
   framePtr = F.prev;
 
-  return result_436208065;
+  return result_436208051;
 
 }
 
-function elTimes(el_436208237) {
-  var result_436208238 = [];
+function elTimes(el_436208236) {
+  var result_436208237 = [];
 
   var F = {procname: "eleicoes.elTimes", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
   framePtr = F;
-    F.line = 91;
-    result_436208238 = nimCopy(null, times_436208063(el_436208237), NTI436207947);
+    F.line = 92;
+    result_436208237 = nimCopy(null, times_436208049(el_436208236), NTI436207949);
   framePtr = F.prev;
 
-  return result_436208238;
+  return result_436208237;
 
 }
 var F = {procname: "module eleicoes", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
 framePtr = F;
 framePtr = F.prev;
 
-function invalid_436207849(update_436207850) {
-  var result_436207851 = 0;
+function invalid_436207869(update_436207870) {
+  var result_436207871 = 0;
 
   var F = {procname: "eleicoes.invalid", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
   framePtr = F;
-    F.line = 42;
-    result_436207851 = update_436207850.blanknull;
+    F.line = 48;
+    result_436207871 = update_436207870.blanknull;
   framePtr = F.prev;
 
-  return result_436207851;
+  return result_436207871;
 
 }
 
-function invalidVotes_436208089(el_436208090) {
+function invalidVotes_436208075(el_436208076) {
     
-function HEX3Aanonymous_436208092(up_436208095) {
-      var result_436208098 = 0;
+function HEX3Aanonymous_436208078(up_436208081) {
+      var result_436208084 = 0;
 
       var F = {procname: "invalidVotes.:anonymous", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
       framePtr = F;
-        F.line = 75;
-        result_436208098 = invalid_436207849(up_436208095);
+        F.line = 76;
+        result_436208084 = invalid_436207869(up_436208081);
       framePtr = F.prev;
 
-      return result_436208098;
+      return result_436208084;
 
     }
 
-  var result_436208091 = [];
+  var result_436208077 = [];
 
   var F = {procname: "eleicoes.invalidVotes", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
   framePtr = F;
-    F.line = 75;
-    result_436208091 = nimCopy(null, map_436207900(updates_436207678(el_436208090), HEX3Aanonymous_436208092), NTI436207806);
+    F.line = 76;
+    result_436208077 = nimCopy(null, map_436207886(updates_436207714(el_436208076), HEX3Aanonymous_436208078), NTI436207806);
   framePtr = F.prev;
 
-  return result_436208091;
+  return result_436208077;
 
 }
 
-function elInvalidVotes(el_436208250) {
-  var result_436208251 = [];
+function elInvalidVotes(el_436208254) {
+  var result_436208255 = [];
 
   var F = {procname: "eleicoes.elInvalidVotes", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
   framePtr = F;
-    F.line = 92;
-    result_436208251 = nimCopy(null, invalidVotes_436208089(el_436208250), NTI436207968);
+    F.line = 93;
+    result_436208255 = nimCopy(null, invalidVotes_436208075(el_436208254), NTI436207970);
   framePtr = F.prev;
 
-  return result_436208251;
+  return result_436208255;
 
 }
 var F = {procname: "module eleicoes", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
 framePtr = F;
 framePtr = F.prev;
 
-function neededToWin_436207852(el_436207853, update_436207854) {
-  var result_436207855 = 0;
+function neededToWin_436207872(el_436207873, update_436207874) {
+  var result_436207875 = 0;
 
   var F = {procname: "eleicoes.neededToWin", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
   framePtr = F;
-    F.line = 45;
-    result_436207855 = addInt(((Math.floor(HEX2F_33557575(subInt(subInt(el_436207853.voters, update_436207854.blanknull), update_436207854.absent), 2))) | 0), 1);
+    F.line = 51;
+    result_436207875 = addInt(((Math.floor(HEX2F_33557575(subInt(subInt(el_436207873.voters, update_436207874.blanknull), update_436207874.absent), 2))) | 0), 1);
   framePtr = F.prev;
 
-  return result_436207855;
+  return result_436207875;
 
 }
 
-function map_436207868(s_436207871, op_436207873) {
-  var result_436207874 = [];
-
-  var F = {procname: "map.map", prev: framePtr, filename: "E:\\bin\\scoop\\apps\\nim\\current\\lib\\pure\\collections\\sequtils.nim", line: 0};
-  framePtr = F;
-    F.line = 385;
-    result_436207874 = new Array(chckRange((s_436207871).length, 0, 2147483647)); for (var i = 0 ; i < chckRange((s_436207871).length, 0, 2147483647) ; ++i) { result_436207874[i] = 0; }    Label1: do {
-      F.line = 386;
-      var i_436207889 = 0;
-      F.line = 117;
-      var colontmp__436208256 = 0;
-      F.line = 386;
-      colontmp__436208256 = (s_436207871).length;
-      F.line = 119;
-      var i_436208257 = 0;
-      Label2: do {
-        F.line = 120;
-          Label3: while (true) {
-          if (!(i_436208257 < colontmp__436208256)) break Label3;
-            F.line = 386;
-            i_436207889 = i_436208257;
-            F.line = 386;
-            result_436207874[chckIndx(i_436207889, 0, (result_436207874).length - 1)] = op_436207873(s_436207871[chckIndx(i_436207889, 0, (s_436207871).length - 1)]);
-            F.line = 122;
-            i_436208257 = addInt(i_436208257, 1);
-          }
-      } while (false);
-    } while (false);
-  framePtr = F.prev;
-
-  return result_436207874;
-
-}
-
-function eachNeedsToWin_436207856(el_436207857) {
-    
-function HEX3Aanonymous_436207861(v_436207864) {
-      var result_436207867 = 0;
-
-      var F = {procname: "eachNeedsToWin.:anonymous", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
-      framePtr = F;
-        F.line = 50;
-        result_436207867 = subInt(needed_436207860, v_436207864);
-      framePtr = F.prev;
-
-      return result_436207867;
-
-    }
-
-  var result_436207858 = [];
-
-  var F = {procname: "eleicoes.eachNeedsToWin", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
-  framePtr = F;
-    F.line = 48;
-    F.line = 48;
-    var up_436207859 = nimCopy(null, el_436207857.lastUpdate, NTI436207619);
-    F.line = 49;
-    var needed_436207860 = neededToWin_436207852(el_436207857, up_436207859);
-    result_436207858 = nimCopy(null, map_436207868(up_436207859.votes, HEX3Aanonymous_436207861), NTI436207782);
-  framePtr = F.prev;
-
-  return result_436207858;
-
-}
-
-function elEachNeedsToWin(el_436208253) {
-  var result_436208254 = [];
-
-  var F = {procname: "eleicoes.elEachNeedsToWin", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
-  framePtr = F;
-    F.line = 93;
-    result_436208254 = nimCopy(null, eachNeedsToWin_436207856(el_436208253), NTI436207770);
-  framePtr = F.prev;
-
-  return result_436208254;
-
-}
-var F = {procname: "module eleicoes", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
-framePtr = F;
-framePtr = F.prev;
-
-function elNeededToWin(el_436208260) {
-  var result_436208261 = 0;
+function elNeededToWin(el_436208257) {
+  var result_436208258 = 0;
 
   var F = {procname: "eleicoes.elNeededToWin", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
   framePtr = F;
     F.line = 94;
-    result_436208261 = neededToWin_436207852(el_436208260, el_436208260.lastUpdate);
+    result_436208258 = neededToWin_436207872(el_436208257, el_436208257.lastUpdate);
+  framePtr = F.prev;
+
+  return result_436208258;
+
+}
+var F = {procname: "module eleicoes", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+
+function neededToWinOverTime_436207876(el_436207877) {
+    
+function HEX3Aanonymous_436207879(up_436207882) {
+      var result_436207885 = 0;
+
+      var F = {procname: "neededToWinOverTime.:anonymous", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
+      framePtr = F;
+        F.line = 54;
+        result_436207885 = neededToWin_436207872(el_436207877, up_436207882);
+      framePtr = F.prev;
+
+      return result_436207885;
+
+    }
+
+  var result_436207878 = [];
+
+  var F = {procname: "eleicoes.neededToWinOverTime", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
+  framePtr = F;
+    F.line = 54;
+    result_436207878 = nimCopy(null, map_436207886(updates_436207714(el_436207877), HEX3Aanonymous_436207879), NTI436207806);
+  framePtr = F.prev;
+
+  return result_436207878;
+
+}
+
+function elNeededToWinOverTime(el_436208260) {
+  var result_436208261 = [];
+
+  var F = {procname: "eleicoes.elNeededToWinOverTime", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
+  framePtr = F;
+    F.line = 95;
+    result_436208261 = nimCopy(null, neededToWinOverTime_436207876(el_436208260), NTI436207794);
   framePtr = F.prev;
 
   return result_436208261;
@@ -2593,40 +2644,193 @@ var F = {procname: "module eleicoes", prev: framePtr, filename: "E:\\code\\eleic
 framePtr = F;
 framePtr = F.prev;
 
-function neededToWinOverTime_436207890(el_436207891) {
-    
-function HEX3Aanonymous_436207893(up_436207896) {
-      var result_436207899 = 0;
+function votes_436207918(el_436207919) {
+  var result_436207920 = [];
 
-      var F = {procname: "neededToWinOverTime.:anonymous", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
-      framePtr = F;
-        F.line = 53;
-        result_436207899 = neededToWin_436207852(el_436207891, up_436207896);
-      framePtr = F.prev;
-
-      return result_436207899;
-
-    }
-
-  var result_436207892 = [];
-
-  var F = {procname: "eleicoes.neededToWinOverTime", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
+  var F = {procname: "eleicoes.votes", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
   framePtr = F;
-    F.line = 53;
-    result_436207892 = nimCopy(null, map_436207900(updates_436207678(el_436207891), HEX3Aanonymous_436207893), NTI436207806);
+    Label1: do {
+      F.line = 57;
+      var __436207925 = 0;
+      F.line = 90;
+      var res_436208275 = 1;
+      Label2: do {
+        F.line = 91;
+          Label3: while (true) {
+          if (!(res_436208275 <= el_436207919.candidates)) break Label3;
+            F.line = 57;
+            __436207925 = res_436208275;
+            F.line = 57;
+            result_436207920.push([]);;
+            F.line = 93;
+            res_436208275 = addInt(res_436208275, 1);
+          }
+      } while (false);
+    } while (false);
+    Label4: do {
+      F.line = 60;
+      var update_436207934 = ({n: 0, votes: [], blanknull: 0, absent: 0, present: 0, totalized: 0, time: 0});
+      if (((el_436207919.lastUpdate.votes).length == 0)) {
+      F.line = 24;
+      var votes_436208284 = [];
+      Label5: do {
+        F.line = 25;
+        var __436208286 = 0;
+        F.line = 90;
+        var res_436208287 = 1;
+        Label6: do {
+          F.line = 91;
+            Label7: while (true) {
+            if (!(res_436208287 <= el_436207919.candidates)) break Label7;
+              F.line = 25;
+              __436208286 = res_436208287;
+              F.line = 25;
+              votes_436208284.push(0);;
+              F.line = 93;
+              res_436208287 = addInt(res_436208287, 1);
+            }
+        } while (false);
+      } while (false);
+      F.line = 60;
+      update_436207934 = nimCopy(update_436207934, {n: 0, votes: nimCopy(null, votes_436208284, NTI436207628), blanknull: 0, absent: 0, present: 0, totalized: 0, time: 0}, NTI436207619);
+      Label8: do {
+        F.line = 62;
+        var i_436207953 = -1;
+        Label9: do {
+          F.line = 61;
+          var v_436207974 = 0;
+          F.line = 235;
+          var i_436208281 = 0;
+          F.line = 236;
+          var L_436208282 = (update_436207934.votes).length;
+          Label10: do {
+            F.line = 237;
+              Label11: while (true) {
+              if (!(i_436208281 < L_436208282)) break Label11;
+                F.line = 62;
+                v_436207974 = update_436207934.votes[chckIndx(i_436208281, 0, (update_436207934.votes).length - 1)];
+                F.line = 62;
+                i_436207953 = addInt(i_436207953, 1);
+                F.line = 62;
+                result_436207920[chckIndx(i_436207953, 0, (result_436207920).length - 1)].push(v_436207974);;
+                F.line = 239;
+                i_436208281 = addInt(i_436208281, 1);
+                if (!(((update_436207934.votes).length == L_436208282))) {
+                F.line = 240;
+                failedAssertImpl_218103864(makeNimstrLit("E:\\bin\\scoop\\apps\\nim\\current\\lib\\system\\iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+                }
+                
+              }
+          } while (false);
+        } while (false);
+      } while (false);
+      }
+      else {
+        Label12: do {
+          F.line = 29;
+          var up_436208290 = ({n: 0, votes: [], blanknull: 0, absent: 0, present: 0, totalized: 0, time: 0});
+          F.line = 235;
+          var i_436208291 = 0;
+          F.line = 236;
+          var L_436208292 = (el_436207919.history).length;
+          Label13: do {
+            F.line = 237;
+              Label14: while (true) {
+              if (!(i_436208291 < L_436208292)) break Label14;
+                F.line = 29;
+                up_436208290 = el_436207919.history[chckIndx(i_436208291, 0, (el_436207919.history).length - 1)];
+                F.line = 60;
+                update_436207934 = nimCopy(update_436207934, up_436208290, NTI436207619);
+                Label15: do {
+                  F.line = 62;
+                  var i_436208294 = -1;
+                  Label16: do {
+                    F.line = 61;
+                    var v_436208295 = 0;
+                    F.line = 235;
+                    var i_436208296 = 0;
+                    F.line = 236;
+                    var L_436208297 = (update_436207934.votes).length;
+                    Label17: do {
+                      F.line = 237;
+                        Label18: while (true) {
+                        if (!(i_436208296 < L_436208297)) break Label18;
+                          F.line = 62;
+                          v_436208295 = update_436207934.votes[chckIndx(i_436208296, 0, (update_436207934.votes).length - 1)];
+                          F.line = 62;
+                          i_436208294 = addInt(i_436208294, 1);
+                          F.line = 62;
+                          result_436207920[chckIndx(i_436208294, 0, (result_436207920).length - 1)].push(v_436208295);;
+                          F.line = 239;
+                          i_436208296 = addInt(i_436208296, 1);
+                          if (!(((update_436207934.votes).length == L_436208297))) {
+                          F.line = 240;
+                          failedAssertImpl_218103864(makeNimstrLit("E:\\bin\\scoop\\apps\\nim\\current\\lib\\system\\iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+                          }
+                          
+                        }
+                    } while (false);
+                  } while (false);
+                } while (false);
+                F.line = 239;
+                i_436208291 = addInt(i_436208291, 1);
+                if (!(((el_436207919.history).length == L_436208292))) {
+                F.line = 240;
+                failedAssertImpl_218103864(makeNimstrLit("E:\\bin\\scoop\\apps\\nim\\current\\lib\\system\\iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+                }
+                
+              }
+          } while (false);
+        } while (false);
+        F.line = 60;
+        update_436207934 = nimCopy(update_436207934, el_436207919.lastUpdate, NTI436207619);
+        Label19: do {
+          F.line = 62;
+          var i_436208298 = -1;
+          Label20: do {
+            F.line = 61;
+            var v_436208299 = 0;
+            F.line = 235;
+            var i_436208300 = 0;
+            F.line = 236;
+            var L_436208301 = (update_436207934.votes).length;
+            Label21: do {
+              F.line = 237;
+                Label22: while (true) {
+                if (!(i_436208300 < L_436208301)) break Label22;
+                  F.line = 62;
+                  v_436208299 = update_436207934.votes[chckIndx(i_436208300, 0, (update_436207934.votes).length - 1)];
+                  F.line = 62;
+                  i_436208298 = addInt(i_436208298, 1);
+                  F.line = 62;
+                  result_436207920[chckIndx(i_436208298, 0, (result_436207920).length - 1)].push(v_436208299);;
+                  F.line = 239;
+                  i_436208300 = addInt(i_436208300, 1);
+                  if (!(((update_436207934.votes).length == L_436208301))) {
+                  F.line = 240;
+                  failedAssertImpl_218103864(makeNimstrLit("E:\\bin\\scoop\\apps\\nim\\current\\lib\\system\\iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+                  }
+                  
+                }
+            } while (false);
+          } while (false);
+        } while (false);
+      }
+      
+    } while (false);
   framePtr = F.prev;
 
-  return result_436207892;
+  return result_436207920;
 
 }
 
-function elNeededToWinOverTime(el_436208263) {
+function elVotes(el_436208263) {
   var result_436208264 = [];
 
-  var F = {procname: "eleicoes.elNeededToWinOverTime", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
+  var F = {procname: "eleicoes.elVotes", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
   framePtr = F;
-    F.line = 95;
-    result_436208264 = nimCopy(null, neededToWinOverTime_436207890(el_436208263), NTI436207794);
+    F.line = 96;
+    result_436208264 = nimCopy(null, votes_436207918(el_436208263), NTI436207824);
   framePtr = F.prev;
 
   return result_436208264;
@@ -2636,165 +2840,29 @@ var F = {procname: "module eleicoes", prev: framePtr, filename: "E:\\code\\eleic
 framePtr = F;
 framePtr = F.prev;
 
-function votes_436207932(el_436207933) {
-  var result_436207934 = [];
+function update_436207765(el_436207766, up_436207767) {
+      var Temporary1;
 
-  var F = {procname: "eleicoes.votes", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
-  framePtr = F;
-    Label1: do {
-      F.line = 56;
-      var __436207939 = 0;
-      F.line = 119;
-      var i_436208278 = 0;
-      Label2: do {
-        F.line = 120;
-          Label3: while (true) {
-          if (!(i_436208278 < el_436207933.candidates)) break Label3;
-            F.line = 56;
-            __436207939 = i_436208278;
-            F.line = 56;
-            result_436207934.push([]);;
-            F.line = 122;
-            i_436208278 = addInt(i_436208278, 1);
-          }
-      } while (false);
-    } while (false);
-    Label4: do {
-      F.line = 59;
-      var update_436207948 = ({n: 0, votes: [], blanknull: 0, absent: 0, present: 0, totalized: 0, time: 0});
-      Label5: do {
-        F.line = 23;
-        var up_436208288 = ({n: 0, votes: [], blanknull: 0, absent: 0, present: 0, totalized: 0, time: 0});
-        F.line = 235;
-        var i_436208289 = 0;
-        F.line = 236;
-        var L_436208290 = (el_436207933.history).length;
-        Label6: do {
-          F.line = 237;
-            Label7: while (true) {
-            if (!(i_436208289 < L_436208290)) break Label7;
-              F.line = 23;
-              up_436208288 = el_436207933.history[chckIndx(i_436208289, 0, (el_436207933.history).length - 1)];
-              F.line = 59;
-              update_436207948 = nimCopy(update_436207948, up_436208288, NTI436207619);
-              Label8: do {
-                F.line = 61;
-                var i_436207967 = -1;
-                Label9: do {
-                  F.line = 60;
-                  var v_436207988 = 0;
-                  F.line = 235;
-                  var i_436208284 = 0;
-                  F.line = 236;
-                  var L_436208285 = (update_436207948.votes).length;
-                  Label10: do {
-                    F.line = 237;
-                      Label11: while (true) {
-                      if (!(i_436208284 < L_436208285)) break Label11;
-                        F.line = 61;
-                        v_436207988 = update_436207948.votes[chckIndx(i_436208284, 0, (update_436207948.votes).length - 1)];
-                        F.line = 61;
-                        i_436207967 = addInt(i_436207967, 1);
-                        F.line = 61;
-                        result_436207934[chckIndx(i_436207967, 0, (result_436207934).length - 1)].push(v_436207988);;
-                        F.line = 239;
-                        i_436208284 = addInt(i_436208284, 1);
-                        if (!(((update_436207948.votes).length == L_436208285))) {
-                        F.line = 240;
-                        failedAssertImpl_218103864(makeNimstrLit("E:\\bin\\scoop\\apps\\nim\\current\\lib\\system\\iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
-                        }
-                        
-                      }
-                  } while (false);
-                } while (false);
-              } while (false);
-              F.line = 239;
-              i_436208289 = addInt(i_436208289, 1);
-              if (!(((el_436207933.history).length == L_436208290))) {
-              F.line = 240;
-              failedAssertImpl_218103864(makeNimstrLit("E:\\bin\\scoop\\apps\\nim\\current\\lib\\system\\iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
-              }
-              
-            }
-        } while (false);
-      } while (false);
-      F.line = 59;
-      update_436207948 = nimCopy(update_436207948, el_436207933.lastUpdate, NTI436207619);
-      Label12: do {
-        F.line = 61;
-        var i_436208292 = -1;
-        Label13: do {
-          F.line = 60;
-          var v_436208293 = 0;
-          F.line = 235;
-          var i_436208294 = 0;
-          F.line = 236;
-          var L_436208295 = (update_436207948.votes).length;
-          Label14: do {
-            F.line = 237;
-              Label15: while (true) {
-              if (!(i_436208294 < L_436208295)) break Label15;
-                F.line = 61;
-                v_436208293 = update_436207948.votes[chckIndx(i_436208294, 0, (update_436207948.votes).length - 1)];
-                F.line = 61;
-                i_436208292 = addInt(i_436208292, 1);
-                F.line = 61;
-                result_436207934[chckIndx(i_436208292, 0, (result_436207934).length - 1)].push(v_436208293);;
-                F.line = 239;
-                i_436208294 = addInt(i_436208294, 1);
-                if (!(((update_436207948.votes).length == L_436208295))) {
-                F.line = 240;
-                failedAssertImpl_218103864(makeNimstrLit("E:\\bin\\scoop\\apps\\nim\\current\\lib\\system\\iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
-                }
-                
-              }
-          } while (false);
-        } while (false);
-      } while (false);
-    } while (false);
-  framePtr = F.prev;
-
-  return result_436207934;
-
-}
-
-function elVotes(el_436208266) {
-  var result_436208267 = [];
-
-  var F = {procname: "eleicoes.elVotes", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
-  framePtr = F;
-    F.line = 96;
-    result_436208267 = nimCopy(null, votes_436207932(el_436208266), NTI436207824);
-  framePtr = F.prev;
-
-  return result_436208267;
-
-}
-var F = {procname: "module eleicoes", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
-framePtr = F;
-framePtr = F.prev;
-
-function update_436207738(el_436207739, up_436207740) {
   var F = {procname: "eleicoes.update", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
   framePtr = F;
-    if (!((el_436207739.lastUpdate.n == up_436207740.n))) {
-    F.line = 33;
-    var Temporary1 = nimCopy(null, el_436207739.lastUpdate, NTI436207619);
-    el_436207739.history.push(Temporary1);;
+      if (!(0 < (el_436207766.lastUpdate.votes).length)) Temporary1 = false; else {        Temporary1 = !((el_436207766.lastUpdate.n == up_436207767.n));      }    if (Temporary1) {
+    F.line = 39;
+    var Temporary2 = nimCopy(null, el_436207766.lastUpdate, NTI436207619);
+    el_436207766.history.push(Temporary2);;
     }
     
-    F.line = 35;
-    el_436207739.lastUpdate = nimCopy(el_436207739.lastUpdate, up_436207740, NTI436207619);
+    F.line = 41;
+    el_436207766.lastUpdate = nimCopy(el_436207766.lastUpdate, up_436207767, NTI436207619);
   framePtr = F.prev;
 
   
 }
 
-function elUpdate(el_436208297, update_436208298) {
+function elUpdate(el_436208303, update_436208304) {
   var F = {procname: "eleicoes.elUpdate", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
   framePtr = F;
     F.line = 97;
-    update_436207738(el_436208297, update_436208298);
+    update_436207765(el_436208303, update_436208304);
   framePtr = F.prev;
 
   
@@ -2803,126 +2871,40 @@ var F = {procname: "module eleicoes", prev: framePtr, filename: "E:\\code\\eleic
 framePtr = F;
 framePtr = F.prev;
 
-function totalized_436208106(el_436208107) {
+function totalized_436208092(el_436208093) {
     
-function HEX3Aanonymous_436208109(up_436208112) {
-      var result_436208115 = 0;
+function HEX3Aanonymous_436208095(up_436208098) {
+      var result_436208101 = 0;
 
       var F = {procname: "totalized.:anonymous", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
       framePtr = F;
-        F.line = 78;
-        result_436208115 = up_436208112.totalized;
+        F.line = 79;
+        result_436208101 = up_436208098.totalized;
       framePtr = F.prev;
 
-      return result_436208115;
+      return result_436208101;
 
     }
 
-  var result_436208108 = [];
+  var result_436208094 = [];
 
   var F = {procname: "eleicoes.totalized", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
   framePtr = F;
-    F.line = 78;
-    result_436208108 = nimCopy(null, map_436207900(updates_436207678(el_436208107), HEX3Aanonymous_436208109), NTI436207806);
+    F.line = 79;
+    result_436208094 = nimCopy(null, map_436207886(updates_436207714(el_436208093), HEX3Aanonymous_436208095), NTI436207806);
   framePtr = F.prev;
 
-  return result_436208108;
+  return result_436208094;
 
 }
 
-function elTotalized(el_436208300) {
-  var result_436208301 = [];
+function elTotalized(el_436208306) {
+  var result_436208307 = [];
 
   var F = {procname: "eleicoes.elTotalized", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
   framePtr = F;
     F.line = 98;
-    result_436208301 = nimCopy(null, totalized_436208106(el_436208300), NTI436207983);
-  framePtr = F.prev;
-
-  return result_436208301;
-
-}
-var F = {procname: "module eleicoes", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
-framePtr = F;
-framePtr = F.prev;
-
-function totalizedPercentage_436208123(el_436208124) {
-    
-function HEX3Aanonymous_436208126(v_436208129) {
-      var result_436208132 = 0.0;
-
-      var F = {procname: "totalizedPercentage.:anonymous", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
-      framePtr = F;
-        F.line = 81;
-        result_436208132 = (HEX2F_33557575(v_436208129, el_436208124.sections) * 100.0);
-      framePtr = F.prev;
-
-      return result_436208132;
-
-    }
-
-  var result_436208125 = [];
-
-  var F = {procname: "eleicoes.totalizedPercentage", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
-  framePtr = F;
-    F.line = 81;
-    result_436208125 = nimCopy(null, map_436207799(totalized_436208106(el_436208124), HEX3Aanonymous_436208126), NTI436207737);
-  framePtr = F.prev;
-
-  return result_436208125;
-
-}
-
-function elTotalizedPercentage(el_436208303) {
-  var result_436208304 = [];
-
-  var F = {procname: "eleicoes.elTotalizedPercentage", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
-  framePtr = F;
-    F.line = 99;
-    result_436208304 = nimCopy(null, totalizedPercentage_436208123(el_436208303), NTI436207998);
-  framePtr = F.prev;
-
-  return result_436208304;
-
-}
-var F = {procname: "module eleicoes", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
-framePtr = F;
-framePtr = F.prev;
-
-function absent_436208139(el_436208140) {
-    
-function HEX3Aanonymous_436208142(up_436208145) {
-      var result_436208148 = 0;
-
-      var F = {procname: "absent.:anonymous", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
-      framePtr = F;
-        F.line = 84;
-        result_436208148 = up_436208145.absent;
-      framePtr = F.prev;
-
-      return result_436208148;
-
-    }
-
-  var result_436208141 = [];
-
-  var F = {procname: "eleicoes.absent", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
-  framePtr = F;
-    F.line = 84;
-    result_436208141 = nimCopy(null, map_436207900(updates_436207678(el_436208140), HEX3Aanonymous_436208142), NTI436207806);
-  framePtr = F.prev;
-
-  return result_436208141;
-
-}
-
-function elAbsent(el_436208306) {
-  var result_436208307 = [];
-
-  var F = {procname: "eleicoes.elAbsent", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
-  framePtr = F;
-    F.line = 100;
-    result_436208307 = nimCopy(null, absent_436208139(el_436208306), NTI436208013);
+    result_436208307 = nimCopy(null, totalized_436208092(el_436208306), NTI436207985);
   framePtr = F.prev;
 
   return result_436208307;
@@ -2932,40 +2914,40 @@ var F = {procname: "module eleicoes", prev: framePtr, filename: "E:\\code\\eleic
 framePtr = F;
 framePtr = F.prev;
 
-function present_436208156(el_436208157) {
+function totalizedPercentage_436208109(el_436208110) {
     
-function HEX3Aanonymous_436208159(up_436208162) {
-      var result_436208165 = 0;
+function HEX3Aanonymous_436208112(v_436208115) {
+      var result_436208118 = 0.0;
 
-      var F = {procname: "present.:anonymous", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
+      var F = {procname: "totalizedPercentage.:anonymous", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
       framePtr = F;
-        F.line = 87;
-        result_436208165 = up_436208162.present;
+        F.line = 82;
+        result_436208118 = (HEX2F_33557575(v_436208115, el_436208110.sections) * 100.0);
       framePtr = F.prev;
 
-      return result_436208165;
+      return result_436208118;
 
     }
 
-  var result_436208158 = [];
+  var result_436208111 = [];
 
-  var F = {procname: "eleicoes.present", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
+  var F = {procname: "eleicoes.totalizedPercentage", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
   framePtr = F;
-    F.line = 87;
-    result_436208158 = nimCopy(null, map_436207900(updates_436207678(el_436208157), HEX3Aanonymous_436208159), NTI436207806);
+    F.line = 82;
+    result_436208111 = nimCopy(null, map_436207828(totalized_436208092(el_436208110), HEX3Aanonymous_436208112), NTI436207767);
   framePtr = F.prev;
 
-  return result_436208158;
+  return result_436208111;
 
 }
 
-function elPresent(el_436208309) {
+function elTotalizedPercentage(el_436208309) {
   var result_436208310 = [];
 
-  var F = {procname: "eleicoes.elPresent", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
+  var F = {procname: "eleicoes.elTotalizedPercentage", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
   framePtr = F;
-    F.line = 101;
-    result_436208310 = nimCopy(null, present_436208156(el_436208309), NTI436208028);
+    F.line = 99;
+    result_436208310 = nimCopy(null, totalizedPercentage_436208109(el_436208309), NTI436208000);
   framePtr = F.prev;
 
   return result_436208310;
@@ -2975,129 +2957,208 @@ var F = {procname: "module eleicoes", prev: framePtr, filename: "E:\\code\\eleic
 framePtr = F;
 framePtr = F.prev;
 
-function new_436208320() {
-  var result_436208323 = null;
+function absent_436208125(el_436208126) {
+    
+function HEX3Aanonymous_436208128(up_436208131) {
+      var result_436208134 = 0;
+
+      var F = {procname: "absent.:anonymous", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
+      framePtr = F;
+        F.line = 85;
+        result_436208134 = up_436208131.absent;
+      framePtr = F.prev;
+
+      return result_436208134;
+
+    }
+
+  var result_436208127 = [];
+
+  var F = {procname: "eleicoes.absent", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
+  framePtr = F;
+    F.line = 85;
+    result_436208127 = nimCopy(null, map_436207886(updates_436207714(el_436208126), HEX3Aanonymous_436208128), NTI436207806);
+  framePtr = F.prev;
+
+  return result_436208127;
+
+}
+
+function elAbsent(el_436208312) {
+  var result_436208313 = [];
+
+  var F = {procname: "eleicoes.elAbsent", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
+  framePtr = F;
+    F.line = 100;
+    result_436208313 = nimCopy(null, absent_436208125(el_436208312), NTI436208015);
+  framePtr = F.prev;
+
+  return result_436208313;
+
+}
+var F = {procname: "module eleicoes", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+
+function present_436208142(el_436208143) {
+    
+function HEX3Aanonymous_436208145(up_436208148) {
+      var result_436208151 = 0;
+
+      var F = {procname: "present.:anonymous", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
+      framePtr = F;
+        F.line = 88;
+        result_436208151 = up_436208148.present;
+      framePtr = F.prev;
+
+      return result_436208151;
+
+    }
+
+  var result_436208144 = [];
+
+  var F = {procname: "eleicoes.present", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
+  framePtr = F;
+    F.line = 88;
+    result_436208144 = nimCopy(null, map_436207886(updates_436207714(el_436208143), HEX3Aanonymous_436208145), NTI436207806);
+  framePtr = F.prev;
+
+  return result_436208144;
+
+}
+
+function elPresent(el_436208315) {
+  var result_436208316 = [];
+
+  var F = {procname: "eleicoes.elPresent", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
+  framePtr = F;
+    F.line = 101;
+    result_436208316 = nimCopy(null, present_436208142(el_436208315), NTI436208030);
+  framePtr = F.prev;
+
+  return result_436208316;
+
+}
+var F = {procname: "module eleicoes", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+
+function new_436208323() {
+  var result_436208326 = null;
 
   var F = {procname: "new.new", prev: framePtr, filename: "E:\\bin\\scoop\\apps\\nim\\current\\lib\\system.nim", line: 0};
   framePtr = F;
   BeforeRet: do {
     F.line = 903;
-    var r_436208325 = null;
+    var r_436208328 = null;
     F.line = 906;
-    r_436208325 = ({candidates: 0, voters: 0, sections: 0, history: [], lastUpdate: ({n: 0, votes: [], blanknull: 0, absent: 0, present: 0, totalized: 0, time: 0})});
+    r_436208328 = ({candidates: 0, voters: 0, sections: 0, history: [], lastUpdate: ({n: 0, votes: [], blanknull: 0, absent: 0, present: 0, totalized: 0, time: 0})});
     F.line = 907;
-    result_436208323 = r_436208325;
+    result_436208326 = r_436208328;
     break BeforeRet;
   } while (false);
   framePtr = F.prev;
 
-  return result_436208323;
+  return result_436208326;
 
 }
 
-function HEX5BHEX5D_436208371(s_436208375, x_436208376) {
-  var result_436208377 = [];
+function HEX5BHEX5D_436208378(s_436208382, x_436208383) {
+  var result_436208384 = [];
 
   var F = {procname: "[].[]", prev: framePtr, filename: "E:\\bin\\scoop\\apps\\nim\\current\\lib\\system.nim", line: 0};
   framePtr = F;
     F.line = 2619;
-    var a_436208379 = x_436208376.a;
+    var a_436208386 = x_436208383.a;
     F.line = 2620;
-    var L_436208384 = addInt(subInt(subInt((s_436208375).length, x_436208376.b), a_436208379), 1);
+    var L_436208391 = addInt(subInt(subInt((s_436208382).length, x_436208383.b), a_436208386), 1);
     F.line = 2621;
-    result_436208377 = new Array(chckRange(L_436208384, 0, 2147483647)); for (var i = 0 ; i < chckRange(L_436208384, 0, 2147483647) ; ++i) { result_436208377[i] = ({n: 0, votes: [], blanknull: 0, absent: 0, present: 0, totalized: 0, time: 0}); }    Label1: do {
+    result_436208384 = new Array(chckRange(L_436208391, 0, 2147483647)); for (var i = 0 ; i < chckRange(L_436208391, 0, 2147483647) ; ++i) { result_436208384[i] = ({n: 0, votes: [], blanknull: 0, absent: 0, present: 0, totalized: 0, time: 0}); }    Label1: do {
       F.line = 2622;
-      var i_436208393 = 0;
+      var i_436208400 = 0;
       F.line = 119;
-      var i_436208404 = 0;
+      var i_436208411 = 0;
       Label2: do {
         F.line = 120;
           Label3: while (true) {
-          if (!(i_436208404 < L_436208384)) break Label3;
+          if (!(i_436208411 < L_436208391)) break Label3;
             F.line = 2622;
-            i_436208393 = i_436208404;
+            i_436208400 = i_436208411;
             F.line = 2622;
-            result_436208377[chckIndx(i_436208393, 0, (result_436208377).length - 1)] = nimCopy(result_436208377[chckIndx(i_436208393, 0, (result_436208377).length - 1)], s_436208375[chckIndx(addInt(i_436208393, a_436208379), 0, (s_436208375).length - 1)], NTI436207619);
+            result_436208384[chckIndx(i_436208400, 0, (result_436208384).length - 1)] = nimCopy(result_436208384[chckIndx(i_436208400, 0, (result_436208384).length - 1)], s_436208382[chckIndx(addInt(i_436208400, a_436208386), 0, (s_436208382).length - 1)], NTI436207619);
             F.line = 122;
-            i_436208404 = addInt(i_436208404, 1);
+            i_436208411 = addInt(i_436208411, 1);
           }
       } while (false);
     } while (false);
   framePtr = F.prev;
 
-  return result_436208377;
+  return result_436208384;
 
 }
 
-function HEX2EHEX2E_436208339(a_436208342, b_436208343) {
-  var result_436208346 = ({a: 0, b: 0});
+function HEX2EHEX2E_436208346(a_436208349, b_436208350) {
+  var result_436208353 = ({a: 0, b: 0});
 
   var F = {procname: ".....", prev: framePtr, filename: "E:\\bin\\scoop\\apps\\nim\\current\\lib\\system.nim", line: 0};
   framePtr = F;
     F.line = 512;
-    result_436208346 = nimCopy(result_436208346, {a: a_436208342, b: b_436208343}, NTI436208127);
+    result_436208353 = nimCopy(result_436208353, {a: a_436208349, b: b_436208350}, NTI436208157);
   framePtr = F.prev;
 
-  return result_436208346;
+  return result_436208353;
 
 }
 
-function elNew(updates_436208312, candidates_436208313, voters_436208314, sections_436208315) {
-  var result_436208316 = null;
+function elNew(updates_436208318, candidates_436208319, voters_436208320, sections_436208321) {
+  var result_436208322 = null;
 
   var F = {procname: "eleicoes.elNew", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};
   framePtr = F;
-    if (((updates_436208312).length == 0)) {
+    F.line = 103;
+    var eleicao_436208341 = new_436208323();
     F.line = 104;
-    result_436208316 = null;
-    }
-    else {
-      F.line = 106;
-      var eleicao_436208338 = new_436208320();
-      F.line = 107;
-      eleicao_436208338.candidates = candidates_436208313;
+    eleicao_436208341.history = nimCopy(null, [], NTI436208149);
+    F.line = 105;
+    eleicao_436208341.candidates = candidates_436208319;
+    F.line = 106;
+    eleicao_436208341.voters = voters_436208320;
+    F.line = 107;
+    eleicao_436208341.sections = sections_436208321;
+    Label1: do {
       F.line = 108;
-      eleicao_436208338.voters = voters_436208314;
-      F.line = 109;
-      eleicao_436208338.lastUpdate = nimCopy(eleicao_436208338.lastUpdate, updates_436208312[chckIndx(0, 0, (updates_436208312).length - 1)], NTI436207619);
-      F.line = 110;
-      eleicao_436208338.sections = sections_436208315;
-      Label1: do {
-        F.line = 111;
-        var update_436208397 = ({n: 0, votes: [], blanknull: 0, absent: 0, present: 0, totalized: 0, time: 0});
-        F.line = 233;
-        var colontmp__436208399 = [];
-        F.line = 111;
-        colontmp__436208399 = HEX5BHEX5D_436208371(updates_436208312, HEX2EHEX2E_436208339(1, 1));
-        F.line = 235;
-        var i_436208400 = 0;
-        F.line = 236;
-        var L_436208401 = (colontmp__436208399).length;
-        Label2: do {
-          F.line = 237;
-            Label3: while (true) {
-            if (!(i_436208400 < L_436208401)) break Label3;
-              F.line = 111;
-              update_436208397 = colontmp__436208399[chckIndx(i_436208400, 0, (colontmp__436208399).length - 1)];
-              F.line = 111;
-              update_436207738(eleicao_436208338, update_436208397);
-              F.line = 239;
-              i_436208400 = addInt(i_436208400, 1);
-              if (!(((colontmp__436208399).length == L_436208401))) {
-              F.line = 240;
-              failedAssertImpl_218103864(makeNimstrLit("E:\\bin\\scoop\\apps\\nim\\current\\lib\\system\\iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
-              }
-              
+      var update_436208404 = ({n: 0, votes: [], blanknull: 0, absent: 0, present: 0, totalized: 0, time: 0});
+      F.line = 233;
+      var colontmp__436208406 = [];
+      F.line = 108;
+      colontmp__436208406 = HEX5BHEX5D_436208378(updates_436208318, HEX2EHEX2E_436208346(0, 1));
+      F.line = 235;
+      var i_436208407 = 0;
+      F.line = 236;
+      var L_436208408 = (colontmp__436208406).length;
+      Label2: do {
+        F.line = 237;
+          Label3: while (true) {
+          if (!(i_436208407 < L_436208408)) break Label3;
+            F.line = 108;
+            update_436208404 = colontmp__436208406[chckIndx(i_436208407, 0, (colontmp__436208406).length - 1)];
+            F.line = 108;
+            update_436207765(eleicao_436208341, update_436208404);
+            F.line = 239;
+            i_436208407 = addInt(i_436208407, 1);
+            if (!(((colontmp__436208406).length == L_436208408))) {
+            F.line = 240;
+            failedAssertImpl_218103864(makeNimstrLit("E:\\bin\\scoop\\apps\\nim\\current\\lib\\system\\iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
             }
-        } while (false);
+            
+          }
       } while (false);
-      F.line = 113;
-      result_436208316 = eleicao_436208338;
-    }
-    
+    } while (false);
+    F.line = 110;
+    result_436208322 = eleicao_436208341;
   framePtr = F.prev;
 
-  return result_436208316;
+  return result_436208322;
 
 }
 var F = {procname: "module eleicoes", prev: framePtr, filename: "E:\\code\\eleicoes2022\\nim\\public\\eleicoes.nim", line: 0};

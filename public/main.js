@@ -27,7 +27,9 @@ async function main() {
     let history = {};
 
     while (true) {
-        history = await fetchJson('history');
+        try {
+            history = await fetchJson('history');
+        } catch (e) {}
         if (history.candidates) break;
         await sleep(5000);
     }
@@ -48,6 +50,7 @@ async function main() {
     }
 
     eleicao = elNew(history.history, history.candidates.length, history.voters, history.sections);
+    console.log(eleicao);
 
     await update(true);
     setInterval(update, 5000);
@@ -100,6 +103,7 @@ async function rotate(r, override) {
 }
 
 function percentage(n) {
+    n = n != n ? 0 : n;
     return n.toFixed(2).toString().replace(/\./g, ',');
 }
 
@@ -182,9 +186,13 @@ function minmaxrange(xrange, x, ys) {
 
 async function update(noupdate) {
     if (!noupdate) {
-        const update = await fetchJson('update');
-        elUpdate(eleicao, update);
-        console.log(update);
+        try {
+            const update = await fetchJson('update');
+            elUpdate(eleicao, update);
+        } catch (e) {
+            console.error(e);
+            return;
+        }
     }
 
     let time = [];
@@ -246,7 +254,7 @@ async function update(noupdate) {
     }));
 
     const bn = [{
-        name: 'Votos Nulos e em Branco',
+        name: 'Votos Nulos ou em Branco',
         x: time,
         y: inv,
         mode: 'lines',
@@ -334,7 +342,7 @@ async function update(noupdate) {
     Plotly.react('pt', [{
         type: 'pie',
         values: [...vs.map(v => last(v)), last(inv), last(absent)],
-        labels: [...candidates, 'Votos Nulos e em Branco', 'Abstenções'],
+        labels: [...candidates, 'Votos Nulos ou em Branco', 'Abstenções'],
         textinfo: 'label+percent',
         marker: {
             colors: [...candidates.map(v => colors[v]), 'rgb(150, 150, 150)', 'rgb(40, 40, 40)']

@@ -140,16 +140,12 @@ setInterval(updateVotes, 20000);
 app.use('/', express.static(path.join(__dirname, 'public')));
 app.get('/history', async function(_, res) {
     const ks = [...Object.keys(e.candidates)];
-    if (ks.length == 0 || e.totalized == 0) {
-        res.json({});
-    } else {
-        res.json({
-            voters: e.voters,
-            sections: e.sections,
-            history: e.history,
-            candidates: ks
-        });
-    }
+    res.json({
+        voters: e.voters,
+        sections: e.sections,
+        history: e.history,
+        candidates: ks
+    });
 });
 
 app.get('/update', async function(_, res) {
