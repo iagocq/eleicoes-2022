@@ -53,14 +53,18 @@ function randint(n) {
 }
 
 async function updateVotes() {
-    const req = await fetch(url);
-    if (req.status != 200) {
-        console.error(req.status, req.statusText);
-        return;
+    let dados, dadosstr;
+    try {
+        const req = await fetch(url);
+        if (req.status != 200) {
+            console.error(req.status, req.statusText);
+            return;
+        }
+        dadosstr = await req.text();
+        dados = JSON.parse(dadosstr);
+    } catch (e) {
+        console.error(e);
     }
-
-    const dadosstr = await req.text();
-    const dados = JSON.parse(dadosstr);
 
     const dia = dados.dt > dados.dg ? dados.dt : dados.dg;
     const hora = dados.ht > dados.hg ? dados.ht : dados.hg;

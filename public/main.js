@@ -246,7 +246,7 @@ async function update(noupdate) {
     }));
 
     const bn = [{
-        name: 'Votos Brancos e Nulos',
+        name: 'Votos Nulos e em Branco',
         x: time,
         y: inv,
         mode: 'lines',
@@ -334,7 +334,7 @@ async function update(noupdate) {
     Plotly.react('pt', [{
         type: 'pie',
         values: [...vs.map(v => last(v)), last(inv), last(absent)],
-        labels: [...candidates, 'Votos Brancos e Nulos', 'Abstenções'],
+        labels: [...candidates, 'Votos Nulos e em Branco', 'Abstenções'],
         textinfo: 'label+percent',
         marker: {
             colors: [...candidates.map(v => colors[v]), 'rgb(150, 150, 150)', 'rgb(40, 40, 40)']
