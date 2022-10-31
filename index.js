@@ -136,7 +136,7 @@ async function updateVotes() {
 }
 
 updateVotes();
-setInterval(updateVotes, 20000);
+setInterval(updateVotes, 5000);
 
 app.use('/', express.static(path.join(__dirname, 'public')));
 app.get('/history', async function(_, res) {

@@ -31,7 +31,7 @@ async function main() {
             history = await fetchJson('history');
         } catch (e) {}
         if (history.candidates) break;
-        await sleep(5000);
+        await sleep(500);
     }
 
     function titlecase(s) {
@@ -53,7 +53,7 @@ async function main() {
     console.log(eleicao);
 
     await update(true);
-    setInterval(update, 5000);
+    setInterval(update, 500);
 
     rotate([['a', 10], ['b', 1], ['a', 10], ['b', 1], ['c', 1]], pollIsClose);
     // rotate([['a', 5/60], ['b', 5/60], ['a', 5/60], ['b', 5/60], ['c', 5/60]], pollIsClose);
